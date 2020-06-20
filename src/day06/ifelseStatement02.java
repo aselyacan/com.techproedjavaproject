@@ -1,0 +1,41 @@
+package day06;
+
+import java.util.Scanner;
+
+public class ifelseStatement02 {
+
+	public static void main(String[] args) {
+	
+		
+		// Kullanicidan bir tamsayi isteyin ve o tamsayinin
+		// mutlak degerini ekrana yazdirin
+		// mutlak deger bir sayinin kendi isareti ile carpilmasi demektir
+		// Ornek: -3 un mutlak degeri: -1.-3 = 3
+		// Ornek: +5 in mutlak degeri: +1.+5 = 5
+		// orner: 0 in mutlak degeri  0 dir  cunku isareti yok tur 
+		
+		        Scanner scan=new Scanner(System.in);
+		        
+		        
+		        System.out.println("Bir tamsayi giriniz ");
+		
+		        int num=scan.nextInt();
+		        
+		        if (num>0) {
+		        	
+		        	System.out.println(num*(+1));
+		        }else {
+		        	System.out.println(num*(-1));
+		        	
+		        	
+		        }
+		        	
+		 
+		
+		
+		
+		
+		
+	}
+
+}
